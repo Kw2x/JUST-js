@@ -1,0 +1,1 @@
+This is a folder contains the first js code I ever wrote. These pieces of code do super simple things but it will cool to come and look back at the starter code down the road 
