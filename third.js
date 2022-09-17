@@ -1,6 +1,6 @@
 let age = 30;
 
-if((!age > 14 && age < 91)) {
+if(!(age > 14 && age < 91)) {
     console.log(`${age} is not in range`)
 }
 else{
