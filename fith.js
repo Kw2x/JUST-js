@@ -11,8 +11,11 @@ select.addEventListener('change', () => {
   let month = choice
   let days = 31
 
-  if(month === "Janurary" || month === "March" || month === "May"){
+  if(month === "Janurary" || month === "March" || month === "May" || month === "July"|| month === "August"|| month === "October" || month === "December"){
     days = 31
+  }
+  else if (month === "Feburary") {
+    days = 28
   }
   else{
     days = 30
