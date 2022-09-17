@@ -1,4 +1,4 @@
-// Calendar App
+// Calendar App - Starter Code
 
 const select = document.querySelector('select');
 const list = document.querySelector('ul');
@@ -9,20 +9,17 @@ select.addEventListener('change', () => {
 
   // ADD CONDITIONAL HERE
   let month = choice
-  let days = 31
+  let days 
 
-  if(month === "Janurary" || month === "March" || month === "May" || month === "July"|| month === "August"|| month === "October" || month === "December"){
+  if(month === "January" || month === "March" || month === "May" || month === "July"|| month === "August"|| month === "October" || month === "December"){
     days = 31
   }
-  else if (month === "Feburary") {
+  else if (month === "February") {
     days = 28
   }
   else{
     days = 30
   }
- 
-
-
 
   createCalendar(days, choice);
 });
@@ -39,3 +36,10 @@ function createCalendar(days, choice) {
 
 createCalendar(31,'January');
 
+// Second Varition
+let days = 31;
+  if (choice === 'February') {
+    days = 28;
+  } else if (choice === 'April' || choice === 'June' || choice === 'September'|| choice === 'November') {
+    days = 30;
+  }
