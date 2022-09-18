@@ -20,4 +20,3 @@ if (login == 'Employee') {
 (login == '') ? 'No login':
 '';
 
-alert(message);
