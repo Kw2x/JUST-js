@@ -1,3 +1,5 @@
+// Alert 
+
 let admin;
 let user;
 user = "John";

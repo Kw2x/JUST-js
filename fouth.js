@@ -1,3 +1,5 @@
+// Admin Promt
+
 let userName = prompt("Who's there?", '');
 
 if (userName === 'Admin') {
